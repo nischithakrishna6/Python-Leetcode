@@ -9,6 +9,6 @@ You can return the answer in any order.
         a = {}
         for i, x in enumerate(nums):
             y = target - x
-            if y in d:
+            if y in a:
                 return [a[y], i]
             a[x] = i
